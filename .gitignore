@@ -1,0 +1,138 @@
+## -----------------------------------------------
+## C# / .NET / Visual Studio .gitignore
+## -----------------------------------------------
+
+# Build output directories
+[Bb]in/
+[Oo]bj/
+
+# Visual Studio local settings & IDE cache
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# NuGet packages
+packages/
+*.nupkg
+*.snupkg
+.nuget/
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]uild/
+[Ll]og/
+[Ll]ogs/
+
+# Visual Studio test results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+TestResult.xml
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# StyleCop
+StyleCopReport.xml
+
+# Files built by Visual Studio
+*_i.c
+*_p.c
+*_h.h
+*.ilk
+*.meta
+*.obj
+*.iobj
+*.pch
+*.pdb
+*.ipdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*_wpftmp.csproj
+*.log
+*.vspscc
+*.vssscc
+.builds
+*.pidb
+*.svclog
+*.scc
+
+# Visual C++ cache files
+ipch/
+*.aps
+*.ncb
+*.opendb
+*.opensdf
+*.sdf
+*.cachefile
+*.VC.db
+*.VC.opendb
+
+# Visual Studio profiler
+*.psess
+*.vsp
+*.vspx
+*.sap
+
+# Visual Studio Trace Files
+*.e2e
+
+# JetBrains (Rider / ReSharper)
+.idea/
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# Windows Explorer thumbnail cache
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Windows shortcuts
+*.lnk
+
+# macOS DS_Store
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Temporary editor files
+*~
+*.swp
+*.swo
+
+# Local environment / secrets
+*.env
+appsettings.Local.json
+secrets.json
+
+# SQL Server data files (if any local .mdf/.ldf are stored)
+*.mdf
+*.ldf
+*.ndf
+
+# Published output
+publish/
+PublishProfiles/
+
+# Rider
+.idea/
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
